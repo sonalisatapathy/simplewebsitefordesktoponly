@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color:#fff;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+ .logo img{
+    width: 170px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin: 25px;
+    padding: 10px;
+}
+.menu ul{
+   display: flex; 
+   justify-content: space-between;
+}
+.menu ul li {
+
+    display: flex;
+    margin: 5px;
+    
+}
+.menu ul li a{
+    text-decoration: none;
+    padding: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    /* color: rgb(16, 16, 172); */
+    color: orangered;
+}
+.menu a:hover{
+    /* color: rgb(209, 16, 16); */
+    color:blue;
+}
+/* .menu a:active{
+    color: rgb(96, 10, 235);
+} */
+.header{
+    background-color:black;
+    padding: 20px 30px;
+}
+.addshop::after{
+    content: "";
+    animation: changetext 10s infinite linear;
+    color: red;
+}
+@keyframes changetext{
+    0% {content: "ShopKart";color: rgb(90, 20, 255);}
+    20% {content: "ShopKart"; color: orangered;}
+    35% {content: "ShopKart";color: rgb(90, 20, 255);}
+    60% {content: "ShopKart"; color:rgb(212, 29, 90);}
+    80% {content: "ShopKart";color: rgb(90, 20, 255);}
+    100% {content: "ShopKart";}
+}
+.menu img{
+    padding-left: 10px;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.descrption1{
+    /* display: inline-block; */
+    margin: auto 150px 200px 150px;
+    font-size: 3vmin;
+    /* font-size: 30px; */
+}
+.descrption1 .addshop{
+    font-size:50px;
+    /* font-weight: 900; */
+}
+.button{
+     background:rgb(247, 30, 30);
+     padding: 10px;
+     margin:auto 10px auto 300px;
+     border-radius: 30px;
+     text-decoration: none;
+     transition: background 0.5s;
+}
+.button:hover{
+    /* background:red; */
+    background-color: blue;
+}
+.catagories .img{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center ;
+    justify-content: center;
+    
+}
+.img2{
+    padding: 20px;
+    
+}
+.i2{
+    margin-top: 30px;
+}
+img:hover{
+    opacity: .5;
+    transition: .7;
+}
+.footer {
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+.footer p, .testimonial h3{
+    color: black;
+
+}
+.testimonial img{
+    width: 70px;
+    margin-left: 50px;
+    
+}
+.testimonial img:hover{
+    transform: translateX(-10px);
+}
+.testimonial h3{
+    margin-left: 50px;
+}
+
+
+    
+
+
